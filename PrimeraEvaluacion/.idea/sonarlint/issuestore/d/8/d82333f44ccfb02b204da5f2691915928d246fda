@@ -1,2 +1,6 @@
 
-m	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÅÅÛ8©ÑÂİ1
+
+java:S4165"rRemove this useless assignment; "odontologoRepository" already holds the assigned value along all execution paths.(üú¢8ğ¥ãİ1
+m	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÅÅÛ8©ÑÂİ1
+K
+java:S1656"/Remove or correct this useless self-assignment.(üú¢8ø¥ãİ1
