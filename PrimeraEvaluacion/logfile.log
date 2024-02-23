@@ -1,0 +1,4 @@
+[2024-02-22 23:03:54] [ ERROR] [OdontologoDaoH2:85] Ha ocurrido un error al intentar cerrar la BDD. null
+[2024-02-22 23:15:51] [ INFO ] [OdontologoDaoH2:89] Listado de los odontólogos: [Id; 1 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez, Id; 2 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez]
+[2024-02-22 23:19:04] [ INFO ] [OdontologoDaoH2:89] Listado de los odontólogos: [Id; 1 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez, Id; 2 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez]
+[2024-02-22 23:22:48] [ INFO ] [OdontologoDaoH2:89] Listado de los odontólogos: [Id; 1 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez, Id; 2 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez]
