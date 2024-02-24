@@ -16,10 +16,11 @@ public class OdontologoServiceTest {
 
     @Test
     void deberiaListarTodosLosOdontologosEnH2() {
-        // arrange
+
+        // preparar el servicio
         odontologoService = new OdontologoService(new OdontologoDaoH2());
 
-        // act
+        // obtener el listado de los odontólogos
         odontologos = odontologoService.listarTodos();
 
         // Test
@@ -28,12 +29,15 @@ public class OdontologoServiceTest {
 
     @Test
     void deberiaListarTodosLosOdontologosEnMemoria() {
-        // arrange
+
+        // preparar el servicio
         odontologoService = new OdontologoService(new OdontologoDaoMemoria());
 
-        //act
-        Odontologo odontologo = new Odontologo(12345, "Juan", "Perez");
-        odontologoService.registrarOdontologo(odontologo);
+        // registrar un par de odontólogos y obtener el listado
+        Odontologo odontologo1 = new Odontologo(1,12345, "Juan", "Perez");
+        odontologoService.registrarOdontologo(odontologo1);
+        Odontologo odontologo2 = new Odontologo(2,54321, "Maria", "Gomez");
+        odontologoService.registrarOdontologo(odontologo2);
         odontologos = odontologoService.listarTodos();
 
         // Test

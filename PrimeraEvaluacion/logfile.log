@@ -14,3 +14,14 @@
 [2024-02-23 00:06:56] [ INFO ] [OdontologoDaoH2:89] Listado de los odontólogos: [Id; 1 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez, Id; 2 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez]
 [2024-02-23 00:06:56] [ INFO ] [OdontologoDaoMemoria:27] Odontólogo registrado: Id; 0 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez
 [2024-02-23 00:06:56] [ INFO ] [OdontologoDaoMemoria:35] Listado de odontólogos: [Id; 0 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez]
+[2024-02-23 21:52:31] [ INFO ] [OdontologoDaoH2:89] Listado de los odontólogos: [Id; 1 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez, Id; 2 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez]
+[2024-02-23 21:52:31] [ INFO ] [OdontologoDaoMemoria:27] Odontólogo registrado: Id; 0 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez
+[2024-02-23 21:52:31] [ INFO ] [OdontologoDaoMemoria:35] Listado de odontólogos: [Id; 0 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez]
+[2024-02-23 21:53:57] [ INFO ] [OdontologoDaoH2:89] Listado de los odontólogos: [Id; 1 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez, Id; 2 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez]
+[2024-02-23 21:53:57] [ INFO ] [OdontologoDaoMemoria:27] Odontólogo registrado: Id; 0 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez
+[2024-02-23 21:53:57] [ INFO ] [OdontologoDaoMemoria:27] Odontólogo registrado: Id; 0 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez
+[2024-02-23 21:53:57] [ INFO ] [OdontologoDaoMemoria:35] Listado de odontólogos: [Id; 0 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez, Id; 0 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez]
+[2024-02-23 21:56:21] [ INFO ] [OdontologoDaoH2:89] Listado de los odontólogos: [Id; 1 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez, Id; 2 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez]
+[2024-02-23 21:56:21] [ INFO ] [OdontologoDaoMemoria:27] Odontólogo registrado: Id; 1 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez
+[2024-02-23 21:56:21] [ INFO ] [OdontologoDaoMemoria:27] Odontólogo registrado: Id; 2 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez
+[2024-02-23 21:56:21] [ INFO ] [OdontologoDaoMemoria:35] Listado de odontólogos: [Id; 1 - Nº de Matrícula: 12345 - Nombre: Juan - Apellido: Perez, Id; 2 - Nº de Matrícula: 54321 - Nombre: Maria - Apellido: Gomez]
