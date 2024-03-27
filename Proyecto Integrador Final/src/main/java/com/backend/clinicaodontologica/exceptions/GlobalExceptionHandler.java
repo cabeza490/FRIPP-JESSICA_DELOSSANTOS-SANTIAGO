@@ -16,13 +16,12 @@ public class GlobalExceptionHandler {
     @ExceptionHandler({ResourceNotFoundException.class})
     @ResponseStatus(HttpStatus.NOT_FOUND)
     public Map<String, String> manejarResourceNotFound(ResourceNotFoundException resourceNotFoundException) {
+
         Map<String, String> mensaje = new HashMap<>();
         mensaje.put("mensaje", "Recurso no encontrado: " + resourceNotFoundException.getMessage());
+
         return mensaje;
     }
-
-
-    //manejo global de la BadRequest
 
     @ExceptionHandler({MethodArgumentNotValidException.class})
     @ResponseStatus(HttpStatus.BAD_REQUEST)

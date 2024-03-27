@@ -28,13 +28,11 @@ class PacienteServiceTest {
     @Test
     @Order(1)
     void deberiaRegistrarseUnPacienteDeNombreJuan_yRetornarSuId() {
-        //arrange
+
         PacienteEntradaDto pacienteEntradaDto = new PacienteEntradaDto("Juan", "Perez", 123456, LocalDate.of(2024, 3, 22), new DomicilioEntradaDto("Calle", 1234, "Localidad", "Provincia"));
 
-        //act
         PacienteSalidaDto pacienteSalidaDto = pacienteService.registrarPaciente(pacienteEntradaDto);
 
-        //assert
         assertNotNull(pacienteSalidaDto);
         assertNotNull(pacienteSalidaDto.getId());
         assertEquals("Juan", pacienteSalidaDto.getNombre());
